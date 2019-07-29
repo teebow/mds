@@ -1,7 +1,6 @@
 image:
   file: Dockerfile
 ports:
-  - port: 6080
+- port: 6080
 tasks:
-  - init: npm i
-    command: "npm run start"
+- command: npm start
