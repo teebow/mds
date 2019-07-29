@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc
+FROM gitpod/workspace-full-vnc:latest
 
 # Install Electron dependencies.
 RUN sudo apt-get update \
