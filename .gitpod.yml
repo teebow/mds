@@ -2,6 +2,6 @@ image:
   file: .gitpod.dockerfile
 ports:
   - port: 6080
-    protocol: "http"
 tasks:
-  - command: "npm run start"
+  - init: npm i
+    command: "npm run start"
